@@ -1,0 +1,56 @@
+/* Default Classes */
+.flex{
+    display: flex;
+}
+
+/* Header and Footer */
+header{
+    position: relative;
+    max-height: 2in;
+}
+header img{
+    object-fit: cover;
+    background-position: 10vh;
+    width: 100%;
+}
+header h2{
+    position: absolute;
+    margin-top: 2%;
+    left: 15%;
+}
+header h1{
+    position: absolute;
+    text-align: center;
+    width: 100%; 
+    left: 0px;
+    top: 50%;
+}
+header ul{
+    position: absolute;
+    right: 15%;
+    margin-top: 2%;
+    max-height: 1em;
+}
+header li{
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-style: italic;
+}
+header a{
+    font-style: normal;
+}
+
+/* Index page */
+#index{
+    background-color: white;
+}
+#index img{
+    object-fit: cover;
+    width: 20vh;
+    height: 30vh;
+}
+
+/* Scriputre page */
+/* Catechism Page */
+/* Connection Page */
